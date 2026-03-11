@@ -4,15 +4,15 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js",
-  "dev": "nodemon app.js"
-},
-
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
   "keywords": [],
   "author": "Pablo Olivares",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
     "pg": "^8.20.0",
     "pg-hstore": "^2.3.4",
@@ -22,4 +22,3 @@
     "nodemon": "^3.1.14"
   }
 }
-  
